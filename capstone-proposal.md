@@ -38,3 +38,5 @@ Is there anything else you'd like your instructor to know?
 ### Research & Planning Log
 #### Friday, 06/17
 * Begin mockup 4:32
+#### Saturday 07/02
+* JS Research (composition, spread operators) 6:13

@@ -40,3 +40,4 @@ Is there anything else you'd like your instructor to know?
 * Begin mockup 4:32
 #### Saturday 07/02
 * JS Research (composition, spread operators) 6:13
+* Styling Research (styled components, css grid, flexbox, neumorphic design) 8:39

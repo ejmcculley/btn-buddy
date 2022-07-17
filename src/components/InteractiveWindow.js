@@ -1,6 +1,11 @@
+import BtnBuilder from "./BtnBuilder"
+
 const InteractiveWindow = () => {
+
   return (
-    <div>InteractiveWindow</div>
+    <>
+    <BtnBuilder />
+    </>
   )
 }
 

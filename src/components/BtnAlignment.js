@@ -1,6 +1,12 @@
+import Button from "./Button"
+
 const BtnAlignment = () => {
   return (
-    <div>BtnAlignment</div>
+    <>
+      <Button />
+      <Button />
+      <Button />
+    </>
   )
 }
 

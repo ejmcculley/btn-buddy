@@ -1,6 +1,12 @@
+import Button from "./Button"
+
 const BtnBorder = () => {
   return (
-    <div>BtnBorder</div>
+    <>
+      <Button />
+      <Button />
+      <Button />
+    </>
   )
 }
 

@@ -1,6 +1,12 @@
+import Button from "./Button"
+
 const BtnShadow = () => {
   return (
-    <div>BtnShadow</div>
+    <>
+      <Button />
+      <Button />
+      <Button />
+    </>
   )
 }
 

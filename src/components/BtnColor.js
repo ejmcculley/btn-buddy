@@ -1,6 +1,12 @@
+import Button from "./Button"
+
 const BtnColor = () => {
   return (
-    <div>BtnColor</div>
+    <>
+      <Button />
+      <Button />
+      <Button />
+    </>
   )
 }
 

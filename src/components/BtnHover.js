@@ -1,6 +1,12 @@
+import Button from "./Button"
+
 const BtnHover = () => {
   return (
-    <div>BtnHover</div>
+    <>
+      <Button />
+      <Button />
+      <Button />
+    </>
   )
 }
 

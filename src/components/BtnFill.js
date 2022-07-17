@@ -1,6 +1,12 @@
+import Button from "./Button"
+
 const BtnFill = () => {
   return (
-    <div>BtnFill</div>
+    <>
+      <Button />
+      <Button />
+      <Button />
+    </>
   )
 }
 

@@ -10,8 +10,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: #d8d8de;
-    color: #2b2a2b;
+    background: #d8d8de ;
+    color: #414141;
     font-family: 'Space Grotesk', sans-serif;
   }
 `

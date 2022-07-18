@@ -14,5 +14,14 @@ const GlobalStyles = createGlobalStyle`
     color: #414141;
     font-family: 'Space Grotesk', sans-serif;
   }
+
+  .btn {
+    background: none;
+    color: #B442F9;
+    border: 2px solid #B442F9;
+    padding: .5em 1em;
+    margin: .5em;
+    border-radius: 5px;
+  }
 `
 export default GlobalStyles

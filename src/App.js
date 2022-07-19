@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import { Container } from './components/styles/Container.styled';
 import { Flex } from './components/styles/Flex.styled';
 import GlobalStyles from './components/styles/Global';
+import { Grid } from './components/styles/Grid.styled';
 
 
 function App() {
@@ -11,9 +12,11 @@ function App() {
     <>
       <GlobalStyles />
       <Flex>
-        <Container>    
-          <Sidebar />
-          <InteractiveWindow />
+        <Container>
+          <Grid>
+            <Sidebar />
+            <InteractiveWindow /> 
+          </Grid>
         </Container>
       </Flex>
     </>

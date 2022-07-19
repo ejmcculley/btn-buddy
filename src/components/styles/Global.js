@@ -23,5 +23,7 @@ const GlobalStyles = createGlobalStyle`
     margin: .5em;
     border-radius: 5px;
   }
+
+ 
 `
 export default GlobalStyles

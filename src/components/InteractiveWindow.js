@@ -5,8 +5,8 @@ const InteractiveWindow = () => {
 
   return (
     <>
-    <BtnBuilder />
-    <Results />
+      <BtnBuilder />
+      <Results />
     </>
   )
 }

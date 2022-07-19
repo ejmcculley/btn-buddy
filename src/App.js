@@ -1,4 +1,3 @@
-import './App.css';
 import InteractiveWindow from './components/InteractiveWindow';
 import Sidebar from './components/Sidebar';
 import { Container } from './components/styles/Container.styled';

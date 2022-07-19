@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600&display=swap');  
 
   * {
     padding: 0;
@@ -22,6 +21,22 @@ const GlobalStyles = createGlobalStyle`
     padding: .5em 1em;
     margin: .5em;
     border-radius: 5px;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+
+  p {
+    font-size: 1.5vw;
+  }
+
+  button {
+    font-size: 1.5vw;
   }
 
  

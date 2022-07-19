@@ -4,7 +4,7 @@ import Sidebar from './components/Sidebar';
 import { Container } from './components/styles/Container.styled';
 import { Flex } from './components/styles/Flex.styled';
 import GlobalStyles from './components/styles/Global';
-import { Grid } from './components/styles/Grid.styled';
+import { Grid, LeftPanel, RightPanel } from './components/styles/Grid.styled';
 
 
 function App() {
@@ -14,8 +14,12 @@ function App() {
       <Flex>
         <Container>
           <Grid>
-            <Sidebar />
-            <InteractiveWindow /> 
+            <LeftPanel>
+              <Sidebar />
+            </LeftPanel>
+            <RightPanel>
+              <InteractiveWindow /> 
+            </RightPanel>
           </Grid>
         </Container>
       </Flex>

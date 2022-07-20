@@ -17,8 +17,10 @@ export const Grid = styled.div`
   grid-template-areas:
     "leftPanel rightPanel rightPanel";
   @media (max-width: 700px) {
+    display:grid;
     grid-template-areas:
     "leftPanel"
     "rightPanel";
+    grid-template-columns: auto-fill(minmax(300px, 1fr));
   }
 `

@@ -8,6 +8,10 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+    font-size: calc(18px + 0.390625vw);
+  }
+
   body {
     background: #d8d8de ;
     color: #414141;
@@ -24,14 +28,14 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h1 {
-    font-size: 5vw;
+    font-size: 1.8rem;
     font-family: neue-haas-grotesk-text,sans-serif;
     font-weight: 700;
     font-style: normal;
   }
 
   h2 {
-    font-size: 3vw;
+    font-size: 1.5rem;
     font-family: neue-haas-grotesk-text,sans-serif;
     font-weight: 400;
     font-style: normal;

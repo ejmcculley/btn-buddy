@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     background: #d8d8de ;
     color: #414141;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: neue-haas-grotesk-display, sans-serif;
   }
 
   .btn {
@@ -25,18 +25,30 @@ const GlobalStyles = createGlobalStyle`
 
   h1 {
     font-size: 5vw;
+    font-family: neue-haas-grotesk-text,sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
 
   h2 {
     font-size: 3vw;
+    font-family: neue-haas-grotesk-text,sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   p {
     font-size: 1.5vw;
+    font-family: neue-haas-grotesk-display,sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   button {
     font-size: 1.5vw;
+    font-family: neue-haas-grotesk-display,sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
  

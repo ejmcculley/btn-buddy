@@ -16,4 +16,9 @@ export const Grid = styled.div`
   margin: 3em;
   grid-template-areas:
     "leftPanel rightPanel rightPanel";
+  @media (max-width: 700px) {
+    grid-template-areas:
+    "leftPanel"
+    "rightPanel";
+  }
 `

@@ -17,7 +17,8 @@ export const Grid = styled.div`
   grid-template-areas:
     "leftPanel rightPanel rightPanel";
   @media (max-width: 700px) {
-    display:grid;
+    display: grid;
+    grid-template-columns: 1fr;
     grid-template-areas:
     "leftPanel"
     "rightPanel";

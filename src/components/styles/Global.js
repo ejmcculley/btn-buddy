@@ -18,14 +18,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: neue-haas-grotesk-display, sans-serif;
   }
 
-  .btn {
-    background: none;
-    color: #B442F9;
-    border: 2px solid #B442F9;
-    padding: .5em 1em;
-    margin: .5em;
-    border-radius: 5px;
-  }
+  
 
   h1 {
     font-size: 1.8rem;
@@ -55,9 +48,30 @@ const GlobalStyles = createGlobalStyle`
     font-style: normal;
   }
 
+  .btn {
+    background-color: #5750ff;
+    color: #fff;
+    border: none;
+    padding: .5em 2em;
+    margin: .5em;
+    border-radius: 25px;
+  }
+
   img {
-    width: 20vw;
-    height: 20vh;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 26px;
+    background: #f3f2f5;
+    box-shadow:  28px 28px 55px #e7e6e9, -28px -28px 55px #fffeff;
+    margin-bottom: 2rem;
   }
 
  

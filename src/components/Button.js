@@ -14,7 +14,7 @@ const Button = ({ color, text, onClick }) => {
 }
 
 Button.defaultProps = {
-  color: '#fff',
+  color: '#5750ff',
   text: 'Select',
 }
 

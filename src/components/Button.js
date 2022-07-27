@@ -1,14 +1,19 @@
 import PropTypes from 'prop-types';
 
-// Need to figure out where to add button building methods
-// Do I stack the button component with methods and compose in button builder?
-
-const Button = ({ color, text, onClick }) => {
+const Button = ({ color, textColor, shape, border, alignment, shadow, text, onClick }) => {
   return (
     <>
     <button 
       onClick={onClick}
-      style={{ backgroundColor: color }}
+      style={{ 
+        backgroundColor: color,
+        color: textColor,
+        borderRadius: shape,
+        borderStyle: border,
+        textAlign: alignment,
+        boxShadow: shadow,
+
+      }}
       className='btn'>
         { text }
       </button>
@@ -18,12 +23,20 @@ const Button = ({ color, text, onClick }) => {
 
 Button.defaultProps = {
   color: '#5750ff',
+  textColor: '#fff',
+  shape: '25px',
   text: 'Select',
+  border: '10px solid black',
+  alignment: 'left',
 }
 
 Button.propTypes = {
   text: PropTypes.string,
   color: PropTypes.string,
+  textColor: PropTypes.string,
+  shape: PropTypes.string,
+  border: PropTypes.string,
+  alignment: PropTypes.string,
   onClick: PropTypes.func,
 }
 

@@ -74,6 +74,22 @@ const GlobalStyles = createGlobalStyle`
     margin-bottom: 2rem;
   }
 
+  .colorPicker {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .backgroundColor {
+    margin: 5%;
+  }
+
+  .textColor {
+    margin: 5%;
+  }
+
+  
+
  
 `
 export default GlobalStyles

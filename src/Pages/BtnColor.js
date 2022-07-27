@@ -1,24 +1,25 @@
 import Button from "components/Button"
-import { useState } from "react";
-import { ChromePicker } from 'react-color';
 import { useNavigate } from 'react-router-dom'
+import BtnShape from "./BtnShape";
 
-const BtnColor = () => {
-  const [color, setColor] = useState('#5750ff')
+const BtnColor = ({ color, textColor }) => {
   let navigate = useNavigate();
   return (
     <>
-    <h2>Choose your Color</h2>
-    <ChromePicker
-      color={color}
-      onChange={updatedColor => setColor(updatedColor.hex)}
-     />
+     <h2>Choose your Color</h2>
+     
      <Button 
+      text='Select'
       color={color}
+      textColor={textColor}
       onClick={() => {
-        navigate('/shape');
+      navigate('/shape');
       }}
-     />
+     >
+      <BtnShape color={color} />
+     </Button>
+      
+   
     </>
   )
 }

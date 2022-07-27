@@ -10,4 +10,3 @@ export const Container = styled.div`
   box-shadow: .25rem .25rem .5rem #c8cad0;
 `
 
-//try min height media query

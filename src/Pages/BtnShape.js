@@ -9,6 +9,7 @@ const BtnShape = ({ color, textColor, border }) => {
      <Button 
       text={'Sharp'}
       color={color}
+      textColor={textColor}
       border={border}
       onClick={() => {
         navigate('/fill');
@@ -25,6 +26,7 @@ const BtnShape = ({ color, textColor, border }) => {
      <Button 
       text={'Pill'}
       color={color}
+      textColor={textColor}
       onClick={() => {
         navigate('/fill');
       }}
@@ -32,6 +34,7 @@ const BtnShape = ({ color, textColor, border }) => {
      <Button 
       text={'Circle'}
       color={color}
+      textColor={textColor}
       onClick={() => {
         navigate('/fill');
       }}

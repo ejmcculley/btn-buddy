@@ -1,25 +1,29 @@
 import Button from "components/Button"
 import { useNavigate } from 'react-router-dom'
 
-const BtnFill = ({ color }) => {
+const BtnFill = () => {
   let navigate = useNavigate();
   return (
     <>
-    <h2>Choose your Fill</h2>
-     <Button 
-      text={'Filled In'}
-      color={color}
-      onClick={() => {
-        navigate('/border');
-      }}
-     />
-     <Button 
-      text={'Outline'}
-      color={color}
-      onClick={() => {
-        navigate('/border');
-      }}
-     />
+    <header>
+      <h2>Choose your Fill</h2>
+    </header>
+    <main>
+      <Button 
+        text={'Filled In'}
+        className={'filled'}
+        onClick={() => {
+          navigate('/border');
+        }}
+      />
+      <Button 
+        text={'Outline'}
+        className={'outline'}
+        onClick={() => {
+          navigate('/border');
+        }}
+      />
+     </main>
     </>
   )
 }

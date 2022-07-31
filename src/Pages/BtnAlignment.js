@@ -1,32 +1,36 @@
 import Button from "components/Button"
 import { useNavigate } from 'react-router-dom'
 
-const BtnAlignment = ({ color }) => {
+const BtnAlignment = () => {
   let navigate = useNavigate();
   return (
     <>
-    <h2>Choose your Alignment</h2>
-     <Button 
-      text={'Left'}
-      color={color}
-      onClick={() => {
-        navigate('/shadow');
-      }}
-     />
-     <Button 
-      text={'Center'}
-      color={color}
-      onClick={() => {
-        navigate('/shadow');
-      }}
-     />
-     <Button 
-      text={'Right'}
-      color={color}
-      onClick={() => {
-        navigate('/shadow');
-      }}
-     />
+    <header>
+      <h2>Choose your Alignment</h2>
+    </header>
+    <main>
+      <Button 
+        text={'Left'}
+        className={'align-left'}
+        onClick={() => {
+          navigate('/shadow');
+        }}
+      />
+      <Button 
+        text={'Center'}
+        className={'btn'}
+        onClick={() => {
+          navigate('/shadow');
+        }}
+      />
+      <Button 
+        text={'Right'}
+        className={'align-right'}
+        onClick={() => {
+          navigate('/shadow');
+        }}
+      />
+     </main>
     </>
   )
 }

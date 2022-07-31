@@ -5,13 +5,18 @@ const Home = () => {
   let navigate = useNavigate();
   return (
     <>
-    <h2>Let's Get Started!</h2>
-     <Button 
-      text={'Begin'}
-      onClick={() => {
-        navigate('/color');
-      }}
-     />
+    <header>
+      <h2>Let's Get Started!</h2>
+    </header>
+    <main>
+      <Button 
+        text={'Begin'}
+        className={'btn'}
+        onClick={()=> {
+          navigate('/color');
+        }}
+      />
+    </main>
     </>
   )
 }

@@ -1,10 +1,11 @@
-const Button = ({ text, value, onClick, className }) => {
+const Button = ({ text, value, onClick, className, style }) => {
     
   return(
     <>
     <button 
       className={className}
       value={value}
+      style={style}
       onClick={onClick}
      > 
      { text }

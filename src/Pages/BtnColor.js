@@ -21,15 +21,60 @@ const BtnColor = () => {
         `
       }
     </style>
-
+    <header>
      <h2>Choose your Color</h2>
-     
-     <Button 
-      text='Select'
-      className={`btn ${btnColor}`}
-      value={'blue'}
-      onClick={handleAddColor} {...navigate('/shape')}
-     />   
+    </header>
+    <main>
+      <Button 
+        text='Select'
+        className={`btn ${btnColor}`}
+        value={'blue'}
+        style={{backgroundColor: '#5750ff'}}
+        onClick={handleAddColor} {...navigate('/shape')}
+      /> 
+      <Button 
+        text='Select'
+        className={`btn ${btnColor}`}
+        value={'blue'}
+        style={{backgroundColor: '#f24e1d'}}
+        onClick={handleAddColor} {...navigate('/shape')}
+      />
+      <Button 
+        text='Select'
+        className={`btn ${btnColor}`}
+        value={'blue'}
+        style={{backgroundColor: '#ff7262'}}
+        onClick={handleAddColor} {...navigate('/shape')}
+      />
+      <Button 
+        text='Select'
+        className={`btn ${btnColor}`}
+        value={'blue'}
+        style={{backgroundColor: '#28b78b'}}
+        onClick={handleAddColor} {...navigate('/shape')}
+      />
+      <Button 
+        text='Select'
+        className={`btn ${btnColor}`}
+        value={'blue'}
+        style={{backgroundColor: '#20bbfe'}}
+        onClick={handleAddColor} {...navigate('/shape')}
+      />
+      <Button 
+        text='Select'
+        className={`btn ${btnColor}`}
+        value={'blue'}
+        style={{backgroundColor: '#ffd242'}}
+        onClick={handleAddColor} {...navigate('/shape')}
+      /> 
+      <Button 
+        text='Select'
+        className={`btn ${btnColor}`}
+        value={'blue'}
+        style={{backgroundColor: '#101010'}}
+        onClick={handleAddColor} {...navigate('/shape')}
+      />  
+     </main> 
     </>
   )
 }

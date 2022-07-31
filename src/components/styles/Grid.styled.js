@@ -6,6 +6,7 @@ export const LeftPanel = styled.div`
 
 export const RightPanel = styled.div`
   grid-area: rightPanel;
+  place-self: center;
 `
 
 export const Grid = styled.div`

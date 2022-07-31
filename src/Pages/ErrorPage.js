@@ -5,13 +5,18 @@ const ErrorPage = () => {
   let navigate = useNavigate();
   return (
     <>
-      <h2>
-        Oopsie! This page doesn't exist...
-      </h2>
-      <Button onClick={()=> {
-        navigate('/home');
+    <header>
+      <h2>Oopsie! This page doesn't exist...</h2>
+    </header>
+    <main>
+      <Button 
+      text={'Home'}
+      className={'btn'}
+      onClick={()=> {
+        navigate('/');
        }} 
       />
+    </main>
    </>
   )
 }

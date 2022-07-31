@@ -3,7 +3,8 @@ import {
   Routes, 
   Route, 
 } from 'react-router-dom';
-import { useState } from 'react';
+import './App.css';
+// import { useState } from 'react';
 import Sidebar from 'components/Sidebar';
 import { Container } from 'components/styles/Container.styled';
 import { Flex } from 'components/styles/Flex.styled';
@@ -14,6 +15,7 @@ import {
   RightPanel, 
 } from 'components/styles/Grid.styled';
 import Home from 'Pages/Home';
+
 import BtnColor from 'Pages/BtnColor';
 import BtnShape from 'Pages/BtnShape';
 import BtnFill from 'Pages/BtnFill';
@@ -22,17 +24,18 @@ import BtnAlignment from 'Pages/BtnAlignment';
 import BtnShadow from 'Pages/BtnShadow';
 import Results from 'Pages/Results';
 import ErrorPage from 'Pages/ErrorPage';
-import { ChromePicker } from 'react-color';
+// import { ChromePicker } from 'react-color';
 
 
 function App() {
-    const [color, setColor] = useState('#5750ff')
-    const [textColor, setTextColor] = useState('#fff')
-
+    // const [color, setColor] = useState('#5750ff');
+    // const [textColor, setTextColor] = useState('#fff');
+    // const [btnAttribute, setBtnAttribute] = useState({backgroundColor: ''});
+    
   return (
     <>
       <Router>
-        <GlobalStyles />
+        {/* <GlobalStyles /> */}
         <Flex>
           <Container>
             <Grid>
@@ -40,11 +43,11 @@ function App() {
                 <Sidebar />
               </LeftPanel>
               <RightPanel>
-                <div className="colorPicker">
+                {/* <div className="colorPicker">
                   <div className="backgroundColor">
                     <p>Background Color</p>
                     <ChromePicker
-                      color={color}
+                    
                       onChange={ (color) => setColor(color.hex)}
                     />
                   </div>
@@ -55,24 +58,24 @@ function App() {
                       onChange={ (color) => setTextColor(color.hex)}
                     />
                   </div>
-                </div>
+                </div> */}
                 <Routes>
-                  <Route path='/' element={<Home color={color} />} />
-                  <Route path='/color' element={<BtnColor color={color} textColor={textColor} />} />
-                  <Route path='/shape' element={<BtnShape color={color} textColor={textColor} />} />
-                  <Route path='/fill' element={<BtnFill color={color} />} />
-                  <Route path='/border' element={<BtnBorder color={color} />} />
-                  <Route path='/alignment' element={<BtnAlignment color={color} />} />
-                  <Route path='/shadow' element={<BtnShadow color={color} />} />
-                  <Route path='/results' element={<Results color={color} />} />
-                  <Route path='*' element={<ErrorPage color={color} />} />
+                  <Route path='/' element={<Home />} />
+                  <Route path='/color' element={<BtnColor />} />
+                  <Route path='/shape' element={<BtnShape />} />
+                  <Route path='/fill' element={<BtnFill />} />
+                  <Route path='/border' element={<BtnBorder />} />
+                  <Route path='/alignment' element={<BtnAlignment />} />
+                  <Route path='/shadow' element={<BtnShadow />} />
+                  <Route path='/results' element={<Results />} />
+                  <Route path='*' element={<ErrorPage />} />
                 </Routes>
               </RightPanel>
             </Grid>
           </Container>
         </Flex>
       </Router>
-    </>
+    </> 
   );
 }
 

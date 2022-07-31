@@ -1,10 +1,10 @@
-import { useState } from "react"
+// import { useState } from "react"
 
-const useAttribute = () => {
-  const [btnAttribute, setBtnAttribute] = useState({backgroundColor: ''});
-  const addAttribute = (attribute) => {
-    setBtnAttribute({...btnAttribute, ...attribute})
-  }
-}
+// const useAttribute = () => {
+//   const [btnAttribute, setBtnAttribute] = useState({backgroundColor: ''});
+//   const addAttribute = (attribute) => {
+//     setBtnAttribute({...btnAttribute, ...attribute})
+//   }
+// }
 
-export default useAttribute;
+// export default useAttribute;

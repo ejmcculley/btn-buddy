@@ -8,21 +8,21 @@ const BtnBorder = ({ color }) => {
     <h2>Choose your Border</h2>
      <Button 
       text={'Nakey'}
-      color={color}
+      className={'btn'}
       onClick={() => {
         navigate('/alignment');
       }}
      />
      <Button 
       text={'Thin Mint'}
-      color={color}
+      className={'thin-mint'}
       onClick={() => {
         navigate('/alignment');
       }}
      />
      <Button 
-      text={'Thick Boi'}
-      color={color}
+      text={'Thicc Boi'}
+      className={'thicc-boi'}
       onClick={() => {
         navigate('/alignment');
       }}

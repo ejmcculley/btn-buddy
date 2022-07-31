@@ -1,40 +1,35 @@
 import Button from "components/Button"
 import { useNavigate } from 'react-router-dom'
 
-const BtnShape = ({ color, textColor, border }) => {
+const BtnShape = () => {
   let navigate = useNavigate();
   return (
     <>
     <h2>Choose your Shape</h2>
      <Button 
       text={'Sharp'}
-      color={color}
-      textColor={textColor}
-      border={border}
+      className={'sharp'}
       onClick={() => {
         navigate('/fill');
       }}
      />
      <Button 
       text={'Safe'}
-      color={color}
-      textColor={textColor}
+      className={'safe'}
       onClick={() => {
         navigate('/fill');
       }}
      />
      <Button 
       text={'Pill'}
-      color={color}
-      textColor={textColor}
+      className={'pill'}
       onClick={() => {
         navigate('/fill');
       }}
      />
      <Button 
       text={'Circle'}
-      color={color}
-      textColor={textColor}
+      className={'circle'}
       onClick={() => {
         navigate('/fill');
       }}

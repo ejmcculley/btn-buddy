@@ -8,21 +8,21 @@ const BtnShadow = ({ color }) => {
     <h2>Choose your Shadow</h2>
      <Button 
       text={'Flat'}
-      color={color}
+      className={'btn'}
       onClick={() => {
         navigate('/results');
       }}
      />
      <Button 
       text={'Business Class'}
-      color={color}
+      className={'business-class'}
       onClick={() => {
         navigate('/results');
       }}
      />
      <Button 
       text={'Vampire'}
-      color={color}
+      className={'vampire'}
       onClick={() => {
         navigate('/results');
       }}

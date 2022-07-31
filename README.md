@@ -21,7 +21,7 @@ _Capstone Project: Create an interactive button building website with React that
 
 ## Mockup WIP
 
-![BtnBuddy](https://user-images.githubusercontent.com/92233564/174421197-8ac93d7b-2c69-47de-9fc2-e899726df21d.jpg)
+<img width="1440" alt="Screen Shot 2022-07-30 at 10 36 21 PM" src="https://user-images.githubusercontent.com/92233564/182011894-f5a74a6d-c672-475a-bf3d-264d914d5003.png">
 
 
 ## Setup/Installation Requirements
@@ -80,7 +80,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Known Bugs
 
-* N/A
+* This is a WIP
 
 ## License
 MIT License
